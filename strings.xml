@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Music Structure App</string>
+
+
+    <!-- Category name for albums [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the different kinds of artists [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for the particular song currently being played [CHAR LIMIT=20] -->
+    <string name="category_nowPlaying">Now Playing</string>
+
+    <!-- Category name for the different songs in play lists [CHAR LIMIT=20] -->
+    <string name="category_playLists">Play Lists</string>
+    <!--Category name for returning to home screen every time [CHAR LIMIT=20] -->
+    <string name="category_homeScreen">Home Screen</string>
+    <!--Category name for navigating to list of albums  every time from Albums [CHAR LIMIT=20] -->
+    <string name="category_listofalbums">Album List</string>
+    <!--Category name for navigating to list of artists every time from Artists [CHAR LIMIT=20] -->
+    <string name="category_listofartists">Artist List</string>
+    <!--Category name for navigating to list of songs every time from PlayLists [CHAR LIMIT=20] -->
+    <string name="category_listofsongs">Song List</string>
+    <!--Category name for navigating to list of songs every time from Payment [CHAR LIMIT=20] -->
+    <string name="category_payment">Payment</string>
+
+
+</resources>

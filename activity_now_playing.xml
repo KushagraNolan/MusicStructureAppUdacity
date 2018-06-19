@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.kushagrasrivastava.musicstructureapp.NowPlayingActivity">
+
+    <TextView
+        android:id="@+id/txtLabel"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="This is the screen which will basically play your choosen track along with its icon in the backgound
+        Radio Active - Imagine Dragons"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+<!--
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:color/darker_gray"
+        android:text="This is the screen which will basically play your choosen track
+                      along with its icon in the backgound"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+        -->
+
+
+    <ImageView
+        android:id="@+id/imgPlayImage"
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        android:layout_weight="1"
+        android:scaleType="matrix"
+        android:src="@drawable/nowplaying" />
+<!--
+    <Button
+        android:id="@+id/btnNowPlaying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_dark_frame"
+        android:text="@string/category_nowPlaying"
+        android:textColor="@android:color/white"/>
+-->
+    <Button
+        android:id="@+id/btnPlayLists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_dark_frame"
+        android:text="@string/category_playLists"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnAlbums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_dark_frame"
+        android:text="@string/category_albums"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnArtists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_dark_frame"
+        android:text="@string/category_artists"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnHomeScreen"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_dark_frame"
+        android:text="HomeScreen"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
+

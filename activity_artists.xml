@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@android:drawable/alert_dark_frame"
+    tools:context="com.example.kushagrasrivastava.musicstructureapp.ArtistsActivity">
+    <TextView
+        android:id="@+id/txtLabel"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame"
+        android:text="This is the  screen possibly showing you in list form
+                                    the collective collection of artists songs of whom you have on your phone"
+
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPlayImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:drawable/alert_light_frame"
+        android:scaleType="centerCrop"
+        android:src="@drawable/artists" />
+    <Button
+        android:id="@+id/btnArtists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_light_frame"
+        android:text="Go to Artists"
+        android:textColor="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/btnNowPlaying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_light_frame"
+        android:text="@string/category_nowPlaying"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btnAlbums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_light_frame"
+        android:text="@string/category_albums"
+        android:textColor="@android:color/darker_gray"/>
+<!--
+
+        -->
+    <Button
+        android:id="@+id/btnPlayLists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_light_frame"
+        android:text="@string/category_playLists"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btnHomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@android:drawable/alert_light_frame"
+        android:text="Home Screen"
+        android:textColor="@android:color/darker_gray"/>
+
+
+</LinearLayout>

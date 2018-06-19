@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="com.example.kushagrasrivastava.musicstructureapp.PaymentActivity">
+    <TextView
+        android:id="@+id/txtLabel"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:text="This is the just a demo screen showing the paypal payment method
+                                       We have added the required API's in the libraries "
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imgPlayImage"
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        android:layout_weight="1"
+        android:scaleType="matrix"
+        android:src="@drawable/payment" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtAmount"
+            android:hint="Enter Amount"
+            />
+        <Button
+            android:id="@+id/btnPayNow"
+            android:text="Pay Now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnReturn"
+            android:text="Return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
